@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <div class="weather d-flex flex-column align-items-center">
+          <form action="" class="weather-form">
+            <input type="text" class="city mt-2 mb-3" id="city" />
+          </form>
+          <!-- ************** city and temperature information ************** -->
+          <div class="description-country d-flex justify-content-center align-items-center w-75">
+            <p class="country-name fs-1">SY ,</p>
+            <p class="city-name fs-1">Homs</p>
+          </div>
+          <div class="temp d-flex justify-content-evenly align-items-center">
+            <div class="image d-flex justify-content-center align-items-center pb-3">
+              <img class="img1 img-fluid" src="images/Group 1.png" alt="" />
+              <img class="img2 img-fluid" src="images/Group 2.png" alt="" />
+              <img class="img3 img-fluid" src="images/Group 3.png" alt="" />
+              <img class="img4 img-fluid" src="images/Group 4.png" alt="" />
+              <img class="img5 img-fluid" src="images/Group 5.png" alt="" />
+              <img class="img6 img-fluid" src="images/Group 6.png" alt="" />
+              <img class="img7 img-fluid" src="images/Group 7.png" alt="" />
+            </div>
+            <div class=" d-flex align-items-center justify-content-center">
+              <p class="temp-deg fs-1"></p>
+              <p class="temp-deg-c text-white fs-1">C</p>
+            </div>
+            <div class="c-f d-flex flex-column">
+              <span class="weather-main"></span>
+              <p class="feels-like">feels like</p>
+            </div>
+            <span class="deg-feels-like"></span>
+          </div>
+          <!-- ************** Weather information ************** -->
+          <div class="weather-description d-flex justify-content-evenly align-items-center">
+            <div class="wind-div box">
+              <p>Wind</p>
+              <p class="wind-speed"></p>
+              <div class="wind-icon">
+                <i class="fas fa-wind"></i>
+              </div>
+            </div>
+            <div class="humidity-div box">
+              <p>Humidity</p>
+              <p class="humidity"></p>
+              <div class="humidity-icon">
+                <i class='fas fa-smog'></i>
+              </div>
+            </div>
+            <div class="visibility-div box">
+              <p>Visibility</p>
+              <p class="visibility"></p>
+              <i class="fa fa-low-vision" aria-hidden="true"></i>
+            </div>
+            <div class="pressure-div box">
+              <p>Pressure</p>
+              <p class="pressure"></p>
+              <div class="pressure-icon">
+                <i class="fa fa-thermometer-empty" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="clouds-div box">
+              <p>Clouds</p>
+              <p class="clouds"></p>
+              <div class="clouds-icon">
+                <i class='fas fa-cloud'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
