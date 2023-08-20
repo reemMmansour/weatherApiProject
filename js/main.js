@@ -57,28 +57,28 @@ city.addEventListener(`input`, (event) => {
         });
         if (result.weather[0].main === "Clear") {
           image_1.style.display = "block";
-          document.body.style.background = `url('../images/skyBlue.jpg') no-repeat `;
+          document.body.style.background = `url('./images/skyBlue.jpg') no-repeat `;
         } else if (result.weather[0].main === "Sunny") {
           image_1.style.display = "block";
-          document.body.style.background = `url('../images/skyBlue.jpg') no-repeat `;
+          document.body.style.background = `url('./images/skyBlue.jpg') no-repeat `;
         } else if (result.weather[0].main === "mist") {
           image_2.style.display = "block";
-          document.body.style.background = `url('../images/autumn.jpg') no-repeat `;
+          document.body.style.background = `url('./images/autumn.jpg') no-repeat `;
         } else if (result.weather[0].main === "Clouds") {
           image_3.style.display = "block";
-          document.body.style.background = `url('/images/weatherClouds.jpg') no-repeat `;
+          document.body.style.background = `url('./images/weatherClouds.jpg') no-repeat `;
         } else if (result.weather[0].main === "Thunderstorm") {
           image_4.style.display = "block";
-          document.body.style.background = `url('/images/Thunderstorm.jpg') no-repeat `;
+          document.body.style.background = `url('./images/Thunderstorm.jpg') no-repeat `;
         } else if (result.weather[0].main === "Rain") {
           image_5.style.display = "block";
-          document.body.style.background = `url('/images/heavyRain.jpg') no-repeat `;
+          document.body.style.background = `url('./images/heavyRain.jpg') no-repeat `;
         } else if (result.weather[0].main === "Snow") {
           image_6.style.display = "block";
-          document.body.style.background = `url('/images/wintrySnow.jpg') no-repeat `;
+          document.body.style.background = `url('./images/wintrySnow.jpg') no-repeat `;
         } else if (result.weather[0].main === "Squall") {
           image_7.style.display = "block";
-          document.body.style.background = `url('/images/heavenSquall.jpg') no-repeat `;
+          document.body.style.background = `url('./images/heavenSquall.jpg') no-repeat `;
         }
         //wind speed show
         windFieldSpeed.innerHTML = `${parseInt(result.wind.speed)} Km/h`;
