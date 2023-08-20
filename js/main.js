@@ -57,28 +57,28 @@ city.addEventListener(`input`, (event) => {
         });
         if (result.weather[0].main === "Clear") {
           image_1.style.display = "block";
-          document.body.style.background = `url('/images/white-clouds-blue-sky-sunny-day.jpg') no-repeat `;
+          document.body.style.background = `url('../images/white-clouds-blue-sky-sunny-day.jpg') no-repeat `;
         } else if (result.weather[0].main === "Sunny") {
           image_1.style.display = "block";
-          document.body.style.background = `url('/images/white-clouds-blue-sky-sunny-day.jpg') no-repeat `;
+          document.body.style.background = `url('../images/white-clouds-blue-sky-sunny-day.jpg') no-repeat `;
         } else if (result.weather[0].main === "mist") {
           image_2.style.display = "block";
-          document.body.style.background = `url('/images/autumn-g41213f104_19202.jpg') no-repeat `;
+          document.body.style.background = `url('../images/autumn-g41213f104_19202.jpg') no-repeat `;
         } else if (result.weather[0].main === "Clouds") {
           image_3.style.display = "block";
-          document.body.style.background = `url('/images/weather-effects-composition.jpg') no-repeat `;
+          document.body.style.background = `url('../images/weather-effects-composition.jpg') no-repeat `;
         } else if (result.weather[0].main === "Thunderstorm") {
           image_4.style.display = "block";
-          document.body.style.background = `url('/images/flash-gbc6eedfa5_1920.jpg') no-repeat `;
+          document.body.style.background = `url('../images/flash-gbc6eedfa5_1920.jpg') no-repeat `;
         } else if (result.weather[0].main === "Rain") {
           image_5.style.display = "block";
-          document.body.style.background = `url('/images/heavy-rain-g05bc61f36_19201.jpg') no-repeat `;
+          document.body.style.background = `url('../images/heavy-rain-g05bc61f36_19201.jpg') no-repeat `;
         } else if (result.weather[0].main === "Snow") {
           image_6.style.display = "block";
-          document.body.style.background = `url('/images/wintry-g0c6dbe6a5_19201.jpg') no-repeat `;
+          document.body.style.background = `url('../images/wintry-g0c6dbe6a5_19201.jpg') no-repeat `;
         } else if (result.weather[0].main === "Squall") {
           image_7.style.display = "block";
-          document.body.style.background = `url('/images/heaven-g6e58abc6c_19202.jpg') no-repeat `;
+          document.body.style.background = `url('../images/heaven-g6e58abc6c_19202.jpg') no-repeat `;
         }
         //wind speed show
         windFieldSpeed.innerHTML = `${parseInt(result.wind.speed)} Km/h`;
